@@ -25,60 +25,43 @@
 
 ## 프로젝트 개요
 
-LMS에 축적된 학생들의 학습 활동 데이터를 분석하여  
-**학생별 학업 특성을 파악하고, 유사한 학습 패턴을 가진 학생들을 그룹화한 뒤  
-각 그룹에 맞는 맞춤형 커리큘럼을 제안**한 연구 프로젝트입니다.
+LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생별 학업 특성을 파악하고, 유사한 학습 패턴을 가진 학생들을 그룹화한 뒤 각 그룹에 맞는 맞춤형 커리큘럼을 제안**한 연구 프로젝트입니다.
 
 연구에서는 IT 관련 학과 학생의 LMS 활동 정보, 개설 강의 정보, 학생 학점, 강의계획서 데이터를 활용했습니다.
 
-원천 데이터는 약 **2,000명 규모**였으며,  
-데이터 정제 및 정규화 이후 **1,106명의 학생 데이터**를 분석에 활용했습니다. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+원천 데이터는 약 **2,000명 규모**였으며, 데이터 정제 및 정규화 이후 **1,106명의 학생 데이터**를 분석에 활용했습니다.
 
 > **LMS 데이터 → 특성 설계 → 통계적 검증 → 학생 그룹 분류 → 맞춤형 커리큘럼 제안**
 
----
-
-## 연구 착안점
-
-기존 수업 운영에서는 학생별 학업 특성과 수준을 일일이 파악하여  
-수업 내용을 구성하거나 개별적인 케어를 제공하기 어려웠습니다.
-
-이에 LMS에 축적된 학습 활동 데이터를 활용하여
-
-- 학생들의 전반적인 학업 패턴 파악
-- 유사한 학습 특성을 가진 학생 그룹 분류
-- 그룹별 특성에 맞는 학습 지원 방향 제안
-
-을 목표로 연구를 진행했습니다. :contentReference[oaicite:4]{index=4}
+![Research Overview](images/research_overview.png)
 
 ---
 
-## 연구 데이터
+## 주요 결과
 
-| 데이터 | 활용 목적 |
+| 📊 학습 특성 분석 | 🧪 통계적 검증 |
 |---|---|
-| LMS 활동 로그 | 학생의 학습 활동 및 상호작용 분석 |
-| 개설 강의 정보 | 수강 강의 및 강의 유형 분석 |
-| 학생 학점 | 학업 성취 수준 분석 |
-| 강의계획서 | 강의 방식 유형화 및 수강 특성 분석 |
+| LMS 상호작용과 강의 방식별 학습 패턴 분석 | ANOVA + Tukey HSD를 통한 그룹 차이 검증 |
 
-### 학습 상호작용 변수
-
-LMS 로그를 기반으로 학생의 학습 활동을 다음 4가지 유형으로 정의하고 계량화했습니다.
-
-| 변수 | 의미 |
+| 🌳 학생 프로파일링 | 🎓 커리큘럼 제안 |
 |---|---|
-| Learner–Instructor | 학생–교수자 상호작용 |
-| Learner–Learner | 학생–학생 상호작용 |
-| Learner–Content | 학생–콘텐츠 상호작용 |
-| Course Activities | 강의 및 LMS 활동 내역 |
+| Decision Tree 기반 학생 그룹 분류 | 그룹별 특성에 따른 맞춤형 학습 지원 방향 제안 |
 
-강의계획서에서 정의된 유사한 강의 방식을 그룹화하여 다음 4가지 유형으로 분류했습니다. :contentReference[oaicite:5]{index=5}
+### LMS 활용 패턴
 
-- Lecture
-- Practice / Experiment
-- Flipped / Blended Learning
-- Problem / Project Based Learning
+![Learning Pattern](images/learning_pattern.png)
+
+### 통계적 검증
+
+![ANOVA Result](images/anova_result.png)
+
+### 학생 프로파일링
+
+![Decision Tree](images/decision_tree.png)
+
+### 커리큘럼 제안
+
+![Curriculum Recommendation](images/curriculum_recommendation.png)
 
 ---
 
@@ -108,3 +91,72 @@ LMS / Course / Grade / Syllabus Data
                 ▼
     Personalized Curriculum Proposal
 ```
+
+---
+
+## 상세 문서
+
+[연구 방법 →](docs/methodology.md)  
+연구 배경, 데이터 구성, 데이터 정제 및 특성 설계
+
+[통계 분석 →](docs/statistical-analysis.md)  
+ANOVA, Tukey HSD 및 통계적 검증 결과
+
+[학생 프로파일링 →](docs/student-profiling.md)  
+Decision Tree, 그룹 분류, 특징 중요도 분석
+
+[커리큘럼 추천 →](docs/curriculum-recommendation.md)  
+5개/7개 그룹별 특성과 맞춤형 커리큘럼 제안
+
+---
+
+## 데이터 보안
+
+실제 LMS 데이터에는 학생 식별 정보 및 학습 관련 데이터가 포함될 수 있으므로 원본 데이터와 개인정보가 포함된 데이터셋은 공개하지 않습니다.
+
+공개 저장소에는 연구 목적, 변수 정의, 분석 방법, 주요 결과 및 해석 등 포트폴리오에 필요한 범위의 정보만 정리합니다.
+
+---
+
+## 프로젝트 구조
+
+```text
+UNIV_STD_Curriculum_Rec/
+├── README.md
+├── docs/
+│   ├── methodology.md
+│   ├── statistical-analysis.md
+│   ├── student-profiling.md
+│   └── curriculum-recommendation.md
+├── images/
+│   ├── research_overview.png
+│   ├── learning_pattern.png
+│   ├── anova_result.png
+│   ├── decision_tree.png
+│   ├── feature_importance.png
+│   └── curriculum_recommendation.png
+├── notebooks/
+├── src/
+├── data/
+└── results/
+```
+
+> 실제 연구 코드 및 공개 가능한 결과물은 데이터 복원 이후 구조에 맞춰 정리할 예정입니다.
+
+---
+
+## Tech Stack
+
+`Python` `Pandas` `Statistics` `ANOVA` `Tukey HSD` `Decision Tree` `Data Mining`
+
+---
+
+## Research Reference
+
+**LMS 데이터분석을 통한 학업 특성 분류 및 맞춤형 수업방식 제공**
+
+---
+
+<p align="center">
+  <sub>Student Learning Analytics · Statistical Analysis · Curriculum Recommendation</sub>
+</p>
