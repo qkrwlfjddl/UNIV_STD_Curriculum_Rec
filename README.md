@@ -37,6 +37,8 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 
 ---
 
+<div align="center">
+
 ## 주요 결과
 
 | 📊 학습 특성 분석 | 🧪 통계적 검증 |
@@ -46,6 +48,8 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 | 🌳 학생 프로파일링 | 🎓 커리큘럼 제안 |
 |---|---|
 | Decision Tree 기반 학생 그룹 분류 | 그룹별 특성에 따른 맞춤형 학습 지원 방향 제안 |
+
+</div>
 
 ### LMS 활용 패턴
 
@@ -108,55 +112,3 @@ Decision Tree, 그룹 분류, 특징 중요도 분석
 [커리큘럼 추천 →](docs/curriculum-recommendation.md)  
 5개/7개 그룹별 특성과 맞춤형 커리큘럼 제안
 
----
-
-## 데이터 보안
-
-실제 LMS 데이터에는 학생 식별 정보 및 학습 관련 데이터가 포함될 수 있으므로 원본 데이터와 개인정보가 포함된 데이터셋은 공개하지 않습니다.
-
-공개 저장소에는 연구 목적, 변수 정의, 분석 방법, 주요 결과 및 해석 등 포트폴리오에 필요한 범위의 정보만 정리합니다.
-
----
-
-## 프로젝트 구조
-
-```text
-UNIV_STD_Curriculum_Rec/
-├── README.md
-├── docs/
-│   ├── methodology.md
-│   ├── statistical-analysis.md
-│   ├── student-profiling.md
-│   └── curriculum-recommendation.md
-├── images/
-│   ├── research_overview.png
-│   ├── learning_pattern.png
-│   ├── anova_result.png
-│   ├── decision_tree.png
-│   ├── feature_importance.png
-│   └── curriculum_recommendation.png
-├── notebooks/
-├── src/
-├── data/
-└── results/
-```
-
-> 실제 연구 코드 및 공개 가능한 결과물은 데이터 복원 이후 구조에 맞춰 정리할 예정입니다.
-
----
-
-## Tech Stack
-
-`Python` `Pandas` `Statistics` `ANOVA` `Tukey HSD` `Decision Tree` `Data Mining`
-
----
-
-## Research Reference
-
-**LMS 데이터분석을 통한 학업 특성 분류 및 맞춤형 수업방식 제공**
-
----
-
-<p align="center">
-  <sub>Student Learning Analytics · Statistical Analysis · Curriculum Recommendation</sub>
-</p>
