@@ -2,9 +2,9 @@
 
 # LMS 데이터 기반 학생 특성 분석 및 맞춤형 커리큘럼 추천
 
-**학생 학습 행동 분석 · 통계적 검증 · 학생 그룹 분류 · 커리큘럼 제안**
 
 🏆 대학혁신지원사업 우수 연구 사례
+**학생 학습 행동 분석 · 통계적 검증 · 학생 그룹 분류 · 커리큘럼 제안**
 
 <p>
   <img src="https://img.shields.io/badge/Statistics-Analysis-4C78A8?style=flat-square&logoColor=white">
