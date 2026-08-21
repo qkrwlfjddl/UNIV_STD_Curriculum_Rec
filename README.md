@@ -11,6 +11,9 @@
   <img src="https://img.shields.io/badge/Decision%20Tree-Student%20Profiling-F6BD16?style=flat-square&logoColor=white">
   <img src="https://img.shields.io/badge/Data%20Mining-Knowledge%20Discovery-9270CA?style=flat-square&logoColor=white">
 </p>
+
+🏆 대학혁신지원사업 우수 연구 사례
+
 <sub>🔐 실제 학생 데이터와 원본 연구 데이터는 개인정보 및 연구 데이터 보호를 위해 공개하지 않습니다.<br>
 공개 가능한 범위에서 연구 목적, 데이터 구성, 분석 방법 및 주요 결과를 정리했습니다.</sub>
 
