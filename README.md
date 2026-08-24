@@ -33,7 +33,7 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 
 > **LMS 데이터 → 특성 설계 → 통계적 검증 → 학생 그룹 분류 → 맞춤형 커리큘럼 제안**
 
-[Google Drive에서 파일 보기](https://drive.google.com/...)
+🌟[Google Drive에서 파일 보기](https://drive.google.com/...)
 
 ---
 
