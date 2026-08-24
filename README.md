@@ -53,7 +53,7 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 
 ### LMS 활용 패턴
 
-![Learning Pattern](docs/anova.pdf)
+![Learning Pattern](docs/anova.png)
 
 ### 통계적 검증
 
