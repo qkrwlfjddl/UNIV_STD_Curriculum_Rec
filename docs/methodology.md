@@ -39,4 +39,4 @@ LMS 사용이 일반화되면서 학생들이 온라인 학습 과정에서 남�
 
 데이터 표준화 및 정규화 이후 학업 특성 파악이 어려운 데이터를 제거하고 학생별 속성 데이터와 연도별 성적 변동 데이터를 구성했습니다.
 
-![Research Overview](../docs/lms.png)
+![Research Overview](../lms.png)
