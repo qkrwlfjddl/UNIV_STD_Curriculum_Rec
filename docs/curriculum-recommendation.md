@@ -20,7 +20,7 @@
 
 기본 이론 강의 비율은 높지만 응용 과목 수강 비율이 낮은 학생에게 실습·프로젝트 관련 비교과 프로그램을 제안했습니다.
 
-![Curriculum Recommendation](../images/curriculum_recommendation.png)
+![Curriculum Recommendation](../reco.png)
 
 ## 3. 해석
 
