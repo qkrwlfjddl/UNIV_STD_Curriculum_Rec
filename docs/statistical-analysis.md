@@ -8,7 +8,7 @@
 
 일원분산분석(ANOVA)을 사용하여 상호작용 및 강의 방식 변수의 그룹 간 차이를 검토했습니다.
 
-![ANOVA Result](../images/anova_result.png)
+![ANOVA Result](anova.jpg)
 
 ## 3. Tukey HSD
 
