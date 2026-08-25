@@ -53,21 +53,21 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 
 ### LMS 활용 패턴
 
-![ANOVA Result](images/lms.jpg)
+![ANOVA Result](docs/lms.jpg)
 
 ### 통계적 검증
 
-![ANOVA Result](images/anova.jpg)
+![ANOVA Result](docs/anova.jpg)
 
 ### 학생 프로파일링
 
-![Decision Tree](images/radar.png)
+![Decision Tree](docs/radar.png)
 
-![Decision Tree](images/decision.png)
+![Decision Tree](docs/decision.png)
 
 ### 커리큘럼 제안
 
-![Curriculum Recommendation](images/reco.png)
+![Curriculum Recommendation](docs/reco.png)
 
 ---
 
