@@ -63,7 +63,7 @@ LMS에 축적된 학생들의 학습 활동 데이터를 분석하여 **학생�
 
 ![Decision Tree](docs/radar.png)
 
-![Decision Tree](docs/decision.png)
+![Decision Tree](docs/tree.png)
 
 ### 커리큘럼 제안
 
