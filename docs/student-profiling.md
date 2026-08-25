@@ -4,7 +4,7 @@
 
 통계적 분석을 통해 확인한 학생 특성과 학점 정보를 활용하여 학생 그룹을 재분류하고 그룹별 특징을 해석했습니다.
 
-![Decision Tree](../images/decision_tree.png)
+![Decision Tree](tree.png)
 
 ## 2. 모델 설정
 
@@ -19,7 +19,7 @@ max_leaf_node = 5, 7
 
 의사결정나무의 분기 구조와 특징 중요도를 통해 학생 그룹 분류에 중요한 학습 특성을 확인했습니다.
 
-![Feature Importance](../images/feature_importance.png)
+![Feature Importance](radar.png)
 
 ## 4. 그룹 프로파일링
 
